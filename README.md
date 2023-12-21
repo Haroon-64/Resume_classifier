@@ -20,7 +20,7 @@ Transfer learning is used, where the pre-trained MobileNetV2 is employed as a fe
 The model is compiled with the Adam optimizer and sparse categorical cross-entropy loss. Custom metrics (f1_m, precision_m, recall_m) are included for monitoring training.
 
 
-The choice of MobileNetV2 for this image classification task is motivated by its efficiency and adaptability. Leveraging transfer learning from a pre-trained MobileNetV2 model allows the network to capture hierarchical features from images, making it particularly suitable for classifying diverse document types such as resumes. Moreover, MobileNetV2's resource efficiency, speed of inference, and suitability for deployment align well with the practical considerations of classifying document images.
+The choice of MobileNetV2 for this image classification task is motivated by its efficiency and adaptability. Leveraging transfer learning from a pre-trained MobileNetV2 model allows the network to capture hierarchical features from images, making it particularly suitable for classifying diverse images such as resumes. Moreover, MobileNetV2's resource efficiency, speed of inference, and suitability for deployment align well with the practical considerations of classifying document images.
 
 
 Training:
